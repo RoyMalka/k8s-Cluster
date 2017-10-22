@@ -32,12 +32,4 @@ apt-get update && apt-get install -yq \
   docker-ce=$DOCKERVER
   
 apt-get install nfs-common -y
-add-apt-repository ppa:git-core/ppa 
-apt-get update; apt install git
-apt-get install git
-
-
-sudo apt-get install python-pip
-sudo pip install --upgrade pip 
-sudo pip install --upgrade virtualenv python-dev build-essential 
 
